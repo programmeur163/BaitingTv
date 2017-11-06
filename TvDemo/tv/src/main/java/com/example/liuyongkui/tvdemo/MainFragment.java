@@ -74,7 +74,7 @@ public class MainFragment extends BrowseFragment {
         Log.i(TAG, "onCreate");
         super.onActivityCreated(savedInstanceState);
 
-        prepareBackgroundManager();
+            prepareBackgroundManager();
 
         setupUIElements();
 
@@ -94,7 +94,7 @@ public class MainFragment extends BrowseFragment {
 
     private void loadRows() {
         List<Movie> list = MovieList.setupMovies();
-   
+
 
 
         mRowsAdapter = new ArrayObjectAdapter(new ListRowPresenter());
